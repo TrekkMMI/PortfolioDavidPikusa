@@ -25,7 +25,7 @@ function init(){
 
 				gc.clearRect(0, 0, innerWidth, innerHeight);
 				var img=new Image();
-    			img.src="../img/balle.png";
+    			img.src="img/Balle.png";
     			gc.drawImage(img,x,y);
 
 				/*rebond (+150 a cause de la taille de l'image)*/
