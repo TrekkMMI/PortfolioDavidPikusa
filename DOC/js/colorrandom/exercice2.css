@@ -1,0 +1,48 @@
+table {
+	margin-left : auto;
+	margin-right : auto;
+	border-collapse : collapse;
+}
+
+td {
+	border : solid 1px black;
+	width : 5px;
+	height : 5px;
+}
+
+.bleu {
+	background-color : #366AB9;
+}
+
+.jaune {
+	background-color : #EAD80D;
+}
+
+.mauve {
+	background-color : #BD4BA9;
+}
+
+.noir {
+	background-color : #000000;
+}
+
+.orange {
+	background-color : #ED7111;
+}
+
+.rouge {
+	background-color : #EA0D0D;
+}
+
+.turquoise {
+	background-color : #11ED84;
+}
+
+.vert {
+	background-color : #2CEA0D;
+}
+
+p {
+	text-align : center;
+}
+

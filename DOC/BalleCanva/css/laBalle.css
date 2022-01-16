@@ -1,0 +1,8 @@
+#laballe{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: solid black 3px;
+}

@@ -1,0 +1,32 @@
+#conteneur {
+	width : 500px;
+	margin : 20px auto 0;
+}
+
+#chrono {
+	border : solid 3px black;
+	width : 260px;
+	height : 200px;
+	margin : 0 auto 20px;
+	border-radius : 50%;
+	text-align : center;
+	font-size : 8em;
+	padding-top : 60px;
+	background-color : #EE9999;
+}
+
+button {
+	display : inline-block;
+	width : 110px;
+	height : 40px;
+	text-align : center;
+	background-color : #CCCCCC;
+	border : solid 1px black;
+	padding-top : 5px;
+	cursor : pointer;
+}
+
+#start, #stop {
+	margin-right : 80px;
+}
+

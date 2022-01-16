@@ -1,0 +1,18 @@
+#champ {
+	width : 1280px;
+	height : 720px;
+	background-image : url("TP2-imagesExercice1/fleurs.jpg");
+	margin-left : auto;
+	margin-right : auto;
+	cursor : url("TP2-imagesExercice1/filet.png"), pointer;
+	position : relative;
+}
+
+#papillon {
+	width : 150px;
+	height : 127px;
+	background-image : url("TP2-imagesExercice1/papillon.png");
+	position : absolute;
+	top : 360px;
+	left : 600px;
+}
