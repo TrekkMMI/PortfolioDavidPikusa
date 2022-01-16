@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>David Pikusa | Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reboot.css">
+    <link rel="stylesheet" href="DOC/js/chronometre/exercice2.css">
+    <link rel="stylesheet" href="DOC/BalleCanva/css/laBalle.css">
+    <link rel="stylesheet" href="DOC/js/dessin/dessins.css">
+    <link rel="stylesheet" href="DOC/js/tp2/TP2-exercice1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="body" onload="init()">
+    <div id="page" class="page">
+        <!-- Header -->
+        <header class="header">
+            <!-- Barre de navigation -->
+            <div class="navbar__container">
+                    <nav class="navbar">
+                        <a href="#" class="navbar__logo">David Pikusa.</a>
+
+                        <div class="navbar_menu">
+                            <a>
+                                <img class="navbar_menuBurger" src="./img/ic-burger-menu.svg" alt="menu burger">
+                            </a>
+                        </div>
+
+                        <ul class="navbar__lien">
+                            <li class="navbar__item"><a href="#Présentation">Qui suis-je ?</a></li>
+                            <li class="navbar__item"><a href="#Réalisations">Mes réalisations</a></li>
+                            <li class="navbar__item"><a href="#Contact">Contactez moi</a></li>
+                        </ul>
+                    </nav>
+            </div>
+
+
+            <!-- Header header -->
+            <div class="container">
+                <div class="header__desc">
+                <h1 class="header__logo">DavidPikusa.</h1>
+                    <span class="header__text">Étudiant MMI Bobigny</span>
+                </div>
+                <div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Qui suis-je ? -->
+        <section id="Présentation" class="presentation">
+            <div class="container">
+                <div class="container__presentation">
+                    <div class="presentation__all">
+                        <h1 class="presentation__title">Qui suis-je ?</h1>
+                        <p class="presentation__text">
+                        Je m'intéresse à la programmation depuis le collège je l'ai découvert via arduino et scratch,
+dans l'idée de me spécialiser dedans j'ai rejoint au lycée une classe sti2d option sin.
+C'est là que j'ai découvert les langages html CSS php et mysql via plusieurs projets
+                        </br>Je suis actuellement en <strong>DUT MMI(Diplôme Universitaire de Technologie-Métiers du Multimédia et de l'Internet)</strong> à <strong>Bobigny (93000)</strong>. 
+                            <br><br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Réalisations -->
+        <section id="Réalisations" class="realisation">
+            <div class="container">
+                <h1 class="part__title">Mes réalisations</h1>
+
+                <div class="img">
+                    <ul class="realisation_ul">
+                        <div class="container_realisations">
+                            <!-- chronometre -->
+                            <div class="realisation_container">
+                                <img class="realisation_img" src="./img/realisations/chronometre.jpg" widht="1024px" height="494px" alt="animal en flat design">
+                                <div class="realisation_desc">
+                                    <h2 class="realisation_name">Chronomètre</h2>
+                                    <hr class="realisation_line">
+                                    <p class="realisation_shortdesc">Projet scolaire qui consistait à créer un chronomètre en javascript.</p>
+                                    <p class="realisation_info">Plus d'infos</p>
+                                </div>
+                                <div class="realisation_modal">
+                                    <img class="realisation_modalClose" src="./img/ic-close-popup.svg" alt="fermer la popup">
+                                    <div class="realisation_modalElements">
+                                        <div id="conteneur">
+                                            <div id="chrono">0s</div>
+                                            <div id="zoneBoutons">
+                                                <button id="start">Start</button>
+                                                <button id="stop">Stop</button>
+                                                <button id="reset">Reset</button>
+                                            </div>
+                                        </div>
+                                        <div class="realisation_modalText">
+                                            <h2 class="realisation_modalTextTitle">Chronomètre</h2>
+                                            <p class="realisation_modalTextDesc">Projet scolaire qui consistait à créer un chronomètre en javascript. <br>Testez le chronomètre.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Balle -->
+                            <div class="realisation_container">
+                                <img class="realisation_img" src="./img/realisations/balle.PNG" alt="logo agence de voyage interplanétaire fictive">
+                                <div class="realisation_desc">
+                                    <h2 class="realisation_name">Balle rebondissante</h2>
+                                    <hr class="realisation_line">
+                                    <p class="realisation_shortdesc">Projet scolaire qui consistait à créer une balle rebondissante dans un canvas.</p>
+                                    <p class="realisation_info">Plus d'infos</p>
+                                </div>
+                                <div class="realisation_modal">
+                                    <img class="realisation_modalClose" src="./img/ic-close-popup.svg" alt="fermer la popup">
+                                    <div class="realisation_modalElements">
+                                            <canvas id="laballe" ;>
+                                            Désolé, votre navigateur ne prend pas en charge &lt;canvas&gt;.
+                                            </canvas>
+                                        <div class="realisation_modalText">
+                                            <h2 class="realisation_modalTextTitle">Voici juste une balle rebondissante dans un canvas</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- jeu1 -->
+                            <div class="realisation_container">
+                                <img class="realisation_img" src="./img/realisations/flux-rss/Capture.PNG" widht="1024px" height="494px" alt="animal en flat design">
+                                <div class="realisation_desc">
+                                    <h2 class="realisation_name">Attrape papillon</h2>
+                                    <hr class="realisation_line">
+                                    <p class="realisation_shortdesc">Mini Jeu essayer d'attraper le papillon.</p>
+                                    <p class="realisation_info">Plus d'infos</p>
+                                </div>
+                                <div class="realisation_modal">
+                                    <img class="realisation_modalClose" src="./img/ic-close-popup.svg" alt="fermer la popup">
+                                    <div class="realisation_modalElements">
+                                    <div id="champ">
+                                        <div id="papillon"></div>
+                                    </div>
+                                        <div class="realisation_modalText">
+                                            <h2 class="realisation_modalTextTitle">Attrape papillon</h2>
+                                            <p class="realisation_modalTextDesc">Mini Jeu essayer d'attraper le papillon. Projet réalisé en javascript</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- dessinjs -->
+                            <div class="realisation_container">
+                                <img class="realisation_img" src="./img/realisations/flux-rss/Capture2.PNG" widht="1024px" height="494px" alt="logo agence de voyage interplanétaire fictive">
+                                <div class="realisation_desc">
+                                    <h2 class="realisation_name">Jeu dessin</h2>
+                                    <hr class="realisation_line">
+                                    <p class="realisation_shortdesc">Projet scolaire qui consistait à dessiner des former en javascript à l'aide de constructeur</p>
+                                    <p class="realisation_info">Plus d'infos</p>
+                                </div>
+                                <div class="realisation_modal">
+                                    <img class="realisation_modalClose" src="./img/ic-close-popup.svg" alt="fermer la popup">
+                                    <div class="realisation_modalElements">
+                                        <h1>Le robot : <span id="nomforme"></span></h1>
+                                        <canvas id="ecran" height="800" width="800"></canvas>
+                                        <p>
+                                            <button type="button" id="suivant">Suivant</button>
+                                        </p>
+                                        <div class="realisation_modalText">
+                                            <h2 class="realisation_modalTextTitle">Jeu dessin</h2>
+                                            <p class="realisation_modalTextDesc">Projet scolaire qui consistait à dessiner des former en javascript à l'aide de constructeur</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+        <!-- Contact -->
+        <section id="Contact" class="contact">
+            <div class="container">
+                <h1 class="part__title">Contactez moi !</h1>
+                <div class="contact_container">
+                    <div>
+                        <a href="mailto:david.pikusa@gmail.com">
+                            <svg class="contact_icons" viewBox="0 0 161 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="80.3736" cy="80.7901" r="80.3736" fill="white"/>
+                                <path d="M39.0416 62.9293L78.522 90.5661C80.1149 91.6671 82.2466 91.7186 83.8957 90.5661L123.371 62.9293V110.149C123.371 111.424 122.856 112.59 121.989 113.452C121.123 114.314 119.961 114.834 118.686 114.834H43.7266C42.4523 114.834 41.2857 114.319 40.4237 113.452C39.5616 112.586 39.0416 111.424 39.0416 110.149V62.9293ZM29.6716 53.8498C29.6716 53.8967 29.6716 53.9435 29.6716 53.9904V110.149C29.6716 114.029 31.2645 117.547 33.7944 120.082C36.3243 122.616 39.8474 124.204 43.7266 124.204H118.686C122.566 124.204 126.084 122.611 128.619 120.082C131.153 117.552 132.741 114.029 132.741 110.149V53.9857C132.741 53.9388 132.741 53.892 132.741 53.8451C132.718 49.9988 131.134 46.5131 128.619 43.9973C126.084 41.4674 122.566 39.8745 118.686 39.8745H43.7266C39.8474 39.8745 36.329 41.4674 33.7944 43.9973C31.2786 46.5131 29.695 49.9988 29.6716 53.8498ZM122.875 51.84L81.2065 81.004L39.5382 51.84C39.7631 51.3902 40.0629 50.9826 40.419 50.6266C41.2857 49.7598 42.4523 49.2445 43.7266 49.2445H118.686C119.961 49.2445 121.127 49.7598 121.989 50.6266C122.345 50.9826 122.645 51.3949 122.87 51.84H122.875Z" fill="#898989"/>
+                                <path d="M38.2087 61.68L77.6891 89.3167C79.282 90.4177 81.4137 90.4693 83.0628 89.3167L122.539 61.68V108.9C122.539 110.174 122.023 111.341 121.156 112.203C120.29 113.065 119.128 113.585 117.854 113.585H42.8937C41.6194 113.585 40.4528 113.07 39.5908 112.203C38.7287 111.336 38.2087 110.174 38.2087 108.9V61.68ZM28.8387 52.6005C28.8387 52.6473 28.8387 52.6942 28.8387 52.741V108.9C28.8387 112.779 30.4316 116.298 32.9615 118.832C35.4914 121.367 39.0145 122.955 42.8937 122.955H117.854C121.733 122.955 125.251 121.362 127.786 118.832C130.32 116.302 131.909 112.779 131.909 108.9V52.7363C131.909 52.6895 131.909 52.6426 131.909 52.5958C131.885 48.7494 130.302 45.2638 127.786 42.7479C125.251 40.218 121.733 38.6251 117.854 38.6251H42.8937C39.0145 38.6251 35.4961 40.218 32.9615 42.7479C30.4457 45.2638 28.8622 48.7494 28.8387 52.6005ZM122.042 50.5906L80.3736 79.7547L38.7053 50.5906C38.9302 50.1408 39.23 49.7332 39.5861 49.3772C40.4528 48.5105 41.6194 47.9951 42.8937 47.9951H117.854C119.128 47.9951 120.294 48.5105 121.156 49.3772C121.513 49.7332 121.812 50.1455 122.037 50.5906H122.042Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <footer class="footer">
+        <p class="footer__text"> © 2021 Tous droits réservés - David Pikusa -  </p>
+        <a href="DOC/cv_pikusa.pdf" download="cv_davidpikusa.pdf"> Mon CV</a>
+    </footer>
+    <!-- <script src="js/popup.js" type="text/javascript"></script> -->
+    <script src="js/navbar.js" type="text/javascript"></script>
+    <script src="js/modal_realisations.js" type="text/javascript"></script>
+    <script src="DOC/js/chronometre/exercice2.js" type="text/javascript"></script>
+    <script src="DOC/BalleCanva/js/jeuBalle.js" type="text/javascript"></script>
+    <script src="DOC/js/dessin/dessins.js" type="text/javascript"></script>
+    <script src="DOC/js/dessin/biblirobot.js" type="text/javascript"></script>
+    <script src="DOC/js/dessin/formes.js" type="text/javascript"></script>
+    <script src="DOC/js/tp2/TP2-exercice1.js" type="text/javascript"></script>
+</body>
+</html
